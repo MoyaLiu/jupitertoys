@@ -24,3 +24,6 @@ Or use surefire plugin to generate simple html test report:
 mvn surefire-report:report
 
 ```
+
+Example simple html test report:
+![image](https://user-images.githubusercontent.com/69458030/144691470-ba1afa76-64ac-42bd-9051-d93c46817cd4.png)
