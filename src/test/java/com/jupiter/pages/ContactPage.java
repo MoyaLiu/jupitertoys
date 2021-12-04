@@ -1,7 +1,7 @@
-package com.jupter.pages;
+package com.jupiter.pages;
 
-import com.jupter.common.BasePage;
-import com.jupter.models.ContactInfo;
+import com.jupiter.common.BasePage;
+import com.jupiter.models.ContactInfo;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

@@ -13,8 +13,14 @@
 
 ### How to run
 
-Run all the tests by maven:
+Run all the tests by maven and generate plain text and xml default
 ```
 mvn test
+
+```
+
+Or use surefire plugin to generate simple html test report:
+```
+mvn surefire-report:report
 
 ```

@@ -1,4 +1,4 @@
-package com.jupter.common;
+package com.jupiter.common;
 
 public class Utils {
     public static float calculateSubtotal(String productPrice, int quantity) {

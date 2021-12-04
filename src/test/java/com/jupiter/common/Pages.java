@@ -1,4 +1,4 @@
-package com.jupter.common;
+package com.jupiter.common;
 
 public enum Pages {
     HOME_PAGE,

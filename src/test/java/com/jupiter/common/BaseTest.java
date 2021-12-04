@@ -1,7 +1,7 @@
-package com.jupter.common;
+package com.jupiter.common;
 
-import com.jupter.mock.DataProvider;
-import com.jupter.pages.HomePage;
+import com.jupiter.mock.DataProvider;
+import com.jupiter.pages.HomePage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
 import org.junit.Before;
@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 public abstract class BaseTest {
     protected WebDriver webDriver;
-    protected JupterPageFactory jupterPageFactory;
+    protected JupiterPageFactory jupterPageFactory;
     protected DataProvider dataProvider;
 
     private static final int DEFAULT_TIMEOUT = 2;
@@ -27,7 +27,7 @@ public abstract class BaseTest {
         webDriver.manage().window().maximize();
         webDriver.manage().timeouts().pageLoadTimeout(DEFAULT_TIMEOUT, TimeUnit.SECONDS);
         webDriver.manage().timeouts().implicitlyWait(DEFAULT_TIMEOUT, TimeUnit.SECONDS);
-        jupterPageFactory = new JupterPageFactory(webDriver);
+        jupterPageFactory = new JupiterPageFactory(webDriver);
         dataProvider = new DataProvider();
     }
 

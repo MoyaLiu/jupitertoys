@@ -1,4 +1,4 @@
-package com.jupter.common;
+package com.jupiter.common;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

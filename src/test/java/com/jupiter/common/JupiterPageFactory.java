@@ -1,15 +1,15 @@
-package com.jupter.common;
+package com.jupiter.common;
 
-import com.jupter.pages.CartPage;
-import com.jupter.pages.ContactPage;
-import com.jupter.pages.HomePage;
-import com.jupter.pages.ShopPage;
+import com.jupiter.pages.CartPage;
+import com.jupiter.pages.ContactPage;
+import com.jupiter.pages.HomePage;
+import com.jupiter.pages.ShopPage;
 import org.openqa.selenium.WebDriver;
 
-public class JupterPageFactory {
+public class JupiterPageFactory {
     private final WebDriver driver;
 
-    public JupterPageFactory(WebDriver driver) {
+    public JupiterPageFactory(WebDriver driver) {
         this.driver = driver;
     }
 

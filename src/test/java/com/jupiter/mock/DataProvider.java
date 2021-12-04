@@ -1,7 +1,7 @@
-package com.jupter.mock;
+package com.jupiter.mock;
 
-import com.jupter.models.ContactInfo;
-import com.jupter.models.ProductInfo;
+import com.jupiter.models.ContactInfo;
+import com.jupiter.models.ProductInfo;
 
 import java.util.ArrayList;
 import java.util.List;

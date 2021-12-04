@@ -1,6 +1,6 @@
-package com.jupter.pages;
+package com.jupiter.pages;
 
-import com.jupter.common.BasePage;
+import com.jupiter.common.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

@@ -1,15 +1,15 @@
-package com.jupter.cases;
+package com.jupiter.cases;
 
-import com.jupter.common.BaseTest;
-import com.jupter.common.Utils;
-import com.jupter.models.ProductInfo;
-import com.jupter.pages.CartPage;
-import com.jupter.pages.HomePage;
-import com.jupter.pages.ShopPage;
+import com.jupiter.common.BaseTest;
+import com.jupiter.common.Utils;
+import com.jupiter.models.ProductInfo;
+import com.jupiter.pages.CartPage;
+import com.jupiter.pages.HomePage;
+import com.jupiter.pages.ShopPage;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static com.jupter.common.Pages.*;
+import static com.jupiter.common.Pages.*;
 
 public class PurchaseTests extends BaseTest {
 

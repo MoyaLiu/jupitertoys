@@ -1,13 +1,13 @@
-package com.jupter.cases;
+package com.jupiter.cases;
 
-import com.jupter.common.BaseTest;
-import com.jupter.pages.ContactPage;
-import com.jupter.pages.HomePage;
+import com.jupiter.common.BaseTest;
+import com.jupiter.pages.ContactPage;
+import com.jupiter.pages.HomePage;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static com.jupter.common.Pages.CONTACT_PAGE;
-import static com.jupter.common.Pages.HOME_PAGE;
+import static com.jupiter.common.Pages.CONTACT_PAGE;
+import static com.jupiter.common.Pages.HOME_PAGE;
 
 public class ContactPageTests extends BaseTest {
 

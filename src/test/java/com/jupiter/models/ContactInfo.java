@@ -1,4 +1,4 @@
-package com.jupter.models;
+package com.jupiter.models;
 
 public class ContactInfo {
     public String forename;
